@@ -10,6 +10,7 @@ public class BankAccount {
         this.balance = balance;
     }
 
+    // the getter for get account number
     public String getAccountNumber() {
         return accountNumber;
     }
