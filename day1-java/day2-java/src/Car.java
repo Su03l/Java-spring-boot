@@ -25,6 +25,7 @@ public class Car {
         this.brand = brand;
     }
 
+    // the setter for set year
     public void setYear(int year) {
         if(year > 1985) {
             this.year = year;
