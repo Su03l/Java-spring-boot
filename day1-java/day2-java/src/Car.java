@@ -4,6 +4,7 @@ public class Car {
     private String brand;
     private int year;
 
+    // the constructor
     public Car(String brand, int year) {
         this.brand = brand;
         this.year = year;
