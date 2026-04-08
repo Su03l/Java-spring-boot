@@ -34,6 +34,7 @@ public class Car {
         }
     }
 
+    // for print car details
     public void printCarDetails() {
         System.out.println("Brand: " + brand + "| Year: " + year);
     }
