@@ -15,7 +15,7 @@ void main() {
 
     System.out.println("===================");
 
-    // the if statement
+    // the if statement to check the score degree
 
     if (score >= 90) {
         System.out.println(" The degree : A");
