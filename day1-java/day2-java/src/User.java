@@ -17,6 +17,7 @@ public class User {
         return id;
     }
 
+    // the setter for user id
     public void setId(int id) {
         this.id = id;
     }
