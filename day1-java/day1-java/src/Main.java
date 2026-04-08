@@ -110,6 +110,7 @@ public static int sum(int num1, int num2) {
     return num1 + num2;
 }
 
+// the function to check if the number is divisible by 2
 public static int checkDev(int num) {
     if (num / 2 == 0) {
         return 1;
