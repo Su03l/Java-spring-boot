@@ -15,6 +15,7 @@ public class Car {
         return brand;
     }
 
+    // the getter for get year
     public int getYear() {
         return year;
     }
