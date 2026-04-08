@@ -1,4 +1,5 @@
 // task 3
+// the task for get and set user info and print
 public class User {
     private int id;
     private String name;
