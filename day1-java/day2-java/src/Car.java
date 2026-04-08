@@ -1,4 +1,5 @@
 // task 2
+// this task for get Car info
 public class Car {
     private String brand;
     private int year;
