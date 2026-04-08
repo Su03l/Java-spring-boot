@@ -95,6 +95,7 @@ void main() {
     System.out.println("===================");
 
     //task 2
+    // check if the number is divisible by 2
     int result2 = checkDev(5);
     if (result2 == 1) {
         System.out.println("The number is divisible by 2");
