@@ -77,7 +77,7 @@ void main() {
 
     System.out.println("===================");
 
-    // the function
+    // the function to calculate sum
     int result = sum(10, 10);
     System.out.println("The result is : " + result);
 
