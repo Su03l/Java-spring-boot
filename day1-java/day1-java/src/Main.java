@@ -68,7 +68,7 @@ void main() {
 
     System.out.println("===================");
 
-    // the while loop
+    // the while loop to print the number from 0 to 2
     int counter = 0;
     while (counter < 3) {
         System.out.println("While loop: " + counter);
