@@ -12,6 +12,7 @@ public class User {
         this.email = email;
     }
 
+    // the getter for id user
     public int getId() {
         return id;
     }
