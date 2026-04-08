@@ -1,5 +1,5 @@
 // the task 1
-//
+// this task about bank account to test the deposit and withdraw
 public class BankAccount {
     private String accountNumber;
     private double balance;
