@@ -15,6 +15,7 @@ public class BankAccount {
         return accountNumber;
     }
 
+    // the getter for get balance
     public double getBalance() {
         return balance;
     }
