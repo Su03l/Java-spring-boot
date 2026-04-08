@@ -10,6 +10,7 @@ public class Car {
         this.year = year;
     }
 
+    // the getter for get brand and year
     public String getBrand() {
         return brand;
     }
