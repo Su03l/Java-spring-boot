@@ -85,7 +85,7 @@ void main() {
 
 
     // the task 1
-    // about check if the number odd or even
+    //
     int number = 7;
     if (number % 2 == 0) {
         System.out.println("The number is even");
