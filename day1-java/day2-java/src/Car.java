@@ -20,6 +20,7 @@ public class Car {
         return year;
     }
 
+    // the setter for set brand and year
     public void setBrand(String brand) {
         this.brand = brand;
     }
