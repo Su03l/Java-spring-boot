@@ -31,7 +31,7 @@ void main() {
 
     System.out.println("===================");
 
-    // the switch
+    // the switch to choose the day
     int day = 4;
     switch (day) {
         case 1:
