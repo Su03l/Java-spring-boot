@@ -5,6 +5,7 @@ public class User {
     private String name;
     private String email;
 
+    // the constructor
     public User (int id, String name, String email) {
         this.id = id;
         this.name = name;
