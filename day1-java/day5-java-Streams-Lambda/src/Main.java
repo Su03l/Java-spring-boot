@@ -50,6 +50,7 @@ public class Main {
                 .map(tool -> "The number of characters in " + tool + " is = " + tool.length())
                 .forEach(text -> System.out.println(text));
 
+        // print a separator
         System.out.println("============================");
     }
 }
