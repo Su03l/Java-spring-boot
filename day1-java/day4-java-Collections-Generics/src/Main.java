@@ -35,6 +35,7 @@ public class Main {
         // the printer
         System.out.println("User 1 is: " + myUser);
 
+        // use for loop for each name in map and print the info name and key
         for (Integer key : userMap.keySet()) {
             System.out.println("ID: " + key + " | Name: " + userMap.get(key));
         }
