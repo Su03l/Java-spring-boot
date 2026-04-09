@@ -61,6 +61,7 @@ public class Main {
         }
 
         // Task 2
+        // add items to map
         Map<String, Integer> grades = new HashMap<>();
 
         grades.put("Ali", 90);
