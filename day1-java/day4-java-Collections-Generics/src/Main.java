@@ -64,6 +64,7 @@ public class Main {
         // add items to map
         Map<String, Integer> grades = new HashMap<>();
 
+        // add grades to map
         grades.put("Ali", 90);
         grades.put("Sara", 95);
         grades.put("Ahmed", 85);
