@@ -8,6 +8,7 @@ public class Main {
         // print the names
         System.out.println("Names starting with 'A':");
 
+        // use stream to iterate over the list
         names.stream()
                 .filter(name -> name.startsWith("A"))
                 .forEach(name -> System.out.println(name));
