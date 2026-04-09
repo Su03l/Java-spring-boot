@@ -19,6 +19,7 @@ public class Main {
             System.out.println("Name : " + name);
         }
 
+        // the space
         System.out.println("==============================");
 
         Map<Integer, String> userMap = new HashMap<>();
