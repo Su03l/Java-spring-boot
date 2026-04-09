@@ -32,6 +32,7 @@ public class Main {
 
         // print the user 1 from the map
         String myUser = userMap.get(1);
+        // the printer
         System.out.println("User 1 is: " + myUser);
 
         for (Integer key : userMap.keySet()) {
