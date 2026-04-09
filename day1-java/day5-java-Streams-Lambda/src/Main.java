@@ -27,10 +27,13 @@ public class Main {
 
         // print a separator
         System.out.println("============================");
-        //Task 1
+        //Task 2
+        // the list of ages
         List<Integer> ages = List.of(15, 22, 17, 30, 12, 25);
 
+        // print the ages
         System.out.println("Ages 18 and over:");
+        //
         ages.stream()
                 .filter(age -> age >= 18)
                 .forEach(age -> System.out.println(age));
