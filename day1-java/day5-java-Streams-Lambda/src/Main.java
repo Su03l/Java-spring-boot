@@ -45,6 +45,7 @@ public class Main {
         // the list of tools
         List<String> tools = List.of("Laravel", "React", "Spring", "Java");
 
+        // use stream to iterate over the list
         tools.stream()
                 .map(tool -> "The number of characters in " + tool + " is = " + tool.length())
                 .forEach(text -> System.out.println(text));
