@@ -40,6 +40,7 @@ public class Main {
             System.out.println("ID: " + key + " | Name: " + userMap.get(key));
         }
 
+        // the space
         System.out.println("==============================");
 
         //Task 1
