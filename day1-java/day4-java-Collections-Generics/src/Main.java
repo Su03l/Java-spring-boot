@@ -14,6 +14,7 @@ public class Main {
         names.add("ali");
         names.add("ahmed");
 
+        // use for loop for each name
         for (String name : names) {
             System.out.println("Name : " + name);
         }
