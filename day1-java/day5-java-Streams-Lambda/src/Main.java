@@ -17,6 +17,7 @@ public class Main {
         System.out.println("============================");
 
         // Task 1
+        // the list of numbers
         List<String> courses = List.of("Java", "Javascript", "React", "PHP", "Python");
 
         courses.stream()
