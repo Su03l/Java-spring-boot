@@ -9,6 +9,7 @@ public class Main {
         // the list for the names
         List<String> names = new ArrayList<>();
 
+        // add 3 names to list
         names.add("sull");
         names.add("ali");
         names.add("ahmed");
