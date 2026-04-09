@@ -25,6 +25,7 @@ public class Main {
         // use map for user names
         Map<Integer, String> userMap = new HashMap<>();
 
+        // add 3 names to map
         userMap.put(1, "sull");
         userMap.put(2, "ali");
         userMap.put(3, "ahmed");
