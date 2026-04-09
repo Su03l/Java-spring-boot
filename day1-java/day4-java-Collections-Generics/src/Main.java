@@ -6,7 +6,7 @@ import java.util.Map;
 public class Main {
     public static void main(String[] args) {
         // Task 1
-
+        // the list for the names
         List<String> names = new ArrayList<>();
 
         names.add("sull");
