@@ -42,6 +42,7 @@ public class Main {
         System.out.println("============================");
 
         //Task 2
+        // the list of tools
         List<String> tools = List.of("Laravel", "React", "Spring", "Java");
 
         tools.stream()
