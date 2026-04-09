@@ -52,6 +52,7 @@ public class Main {
         cart.add("Mouse");
         cart.add("Keyboard");
 
+        // remove one item choose
         cart.remove("Mouse");
 
         for (String item : cart) {
