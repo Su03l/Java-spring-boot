@@ -30,6 +30,7 @@ public class Main {
         userMap.put(2, "ali");
         userMap.put(3, "ahmed");
 
+        // print the user 1 from the map
         String myUser = userMap.get(1);
         System.out.println("User 1 is: " + myUser);
 
