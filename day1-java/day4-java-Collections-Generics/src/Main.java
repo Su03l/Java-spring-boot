@@ -22,6 +22,7 @@ public class Main {
         // the space
         System.out.println("==============================");
 
+        // use map for user names
         Map<Integer, String> userMap = new HashMap<>();
 
         userMap.put(1, "sull");
