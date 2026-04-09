@@ -25,6 +25,7 @@ public class Main {
                 .map(course -> course.toUpperCase())
                 .forEach(course -> System.out.println(course));
 
+        // print a separator
         System.out.println("============================");
         //Task 1
         List<Integer> ages = List.of(15, 22, 17, 30, 12, 25);
