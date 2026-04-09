@@ -55,6 +55,7 @@ public class Main {
         // remove one item choose
         cart.remove("Mouse");
 
+        // print the list
         for (String item : cart) {
             System.out.println("Item: " + item);
         }
