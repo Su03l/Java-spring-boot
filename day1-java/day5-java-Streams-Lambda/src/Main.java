@@ -38,6 +38,7 @@ public class Main {
                 .filter(age -> age >= 18)
                 .forEach(age -> System.out.println(age));
 
+        // print a separator
         System.out.println("============================");
 
         //Task 2
