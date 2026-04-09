@@ -13,6 +13,7 @@ public class Main {
                 .filter(name -> name.startsWith("A"))
                 .forEach(name -> System.out.println(name));
 
+        // print a separator
         System.out.println("============================");
 
         List<String> courses = List.of("Java", "Javascript", "React", "PHP", "Python");
