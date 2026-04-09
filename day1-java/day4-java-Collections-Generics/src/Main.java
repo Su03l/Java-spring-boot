@@ -47,6 +47,7 @@ public class Main {
         // add 3 items to list
         List<String> cart = new ArrayList<>();
 
+        // add 3 items to list
         cart.add("Laptop ");
         cart.add("Mouse");
         cart.add("Keyboard");
