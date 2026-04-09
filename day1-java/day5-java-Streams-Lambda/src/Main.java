@@ -16,6 +16,7 @@ public class Main {
         // print a separator
         System.out.println("============================");
 
+        // Task 1
         List<String> courses = List.of("Java", "Javascript", "React", "PHP", "Python");
 
         courses.stream()
