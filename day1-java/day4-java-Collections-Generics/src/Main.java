@@ -44,6 +44,7 @@ public class Main {
         System.out.println("==============================");
 
         //Task 1
+        // add 3 items to list
         List<String> cart = new ArrayList<>();
 
         cart.add("Laptop ");
