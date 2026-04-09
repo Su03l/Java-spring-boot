@@ -33,7 +33,7 @@ public class Main {
 
         // print the ages
         System.out.println("Ages 18 and over:");
-        //
+        // use stream to iterate over the list
         ages.stream()
                 .filter(age -> age >= 18)
                 .forEach(age -> System.out.println(age));
