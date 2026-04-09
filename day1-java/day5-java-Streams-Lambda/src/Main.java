@@ -5,6 +5,7 @@ public class Main {
         // the list of names
         List<String> names = List.of("Ali", "Sara", "Ahmed", "Fahad");
 
+        // print the names
         System.out.println("Names starting with 'A':");
 
         names.stream()
