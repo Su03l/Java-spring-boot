@@ -17,9 +17,10 @@ public class Main {
         System.out.println("============================");
 
         // Task 1
-        // the list of numbers
+        // the list of courses to make it upperCase
         List<String> courses = List.of("Java", "Javascript", "React", "PHP", "Python");
 
+        // use stream to iterate over the list
         courses.stream()
                 .map(course -> course.toUpperCase())
                 .forEach(course -> System.out.println(course));
