@@ -16,6 +16,7 @@ public class Main {
 
         // print the updated tasks
         System.out.println("\nMarking task 2 as done and deleting task 1...");
+        // mark task 2 as done
         taskManager.markTaskAsDone(2);
         taskManager.deleteTask(1);
 
