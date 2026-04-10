@@ -7,6 +7,7 @@ public class TaskManager {
     // start the list
     private List<Task> tasks = new ArrayList<>();
 
+    // add the task
     public void addTask(Task task) {
         tasks.add(task);
     }
