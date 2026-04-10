@@ -36,6 +36,7 @@ public class Task {
         return isCompleted;
     }
 
+    // Setters for Completed
     public void setCompleted(boolean completed) {
         isCompleted = completed;
     }
