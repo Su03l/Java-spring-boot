@@ -31,6 +31,7 @@ public class Task {
         this.title = title;
     }
 
+    // Getters and Setters for Completed
     public boolean isCompleted() {
         return isCompleted;
     }
