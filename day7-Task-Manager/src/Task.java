@@ -21,6 +21,7 @@ public class Task {
         this.id = id;
     }
 
+    // Getters and Setters for Title
     public String getTitle() {
         return title;
     }
