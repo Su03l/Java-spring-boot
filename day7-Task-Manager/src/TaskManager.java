@@ -12,6 +12,7 @@ public class TaskManager {
         tasks.add(task);
     }
 
+    // list the task
     public void listTasks() {
         tasks.forEach(Task::printTask);
     }
