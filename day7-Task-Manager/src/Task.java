@@ -26,6 +26,7 @@ public class Task {
         return title;
     }
 
+    // Setters for Title
     public void setTitle(String title) {
         this.title = title;
     }
