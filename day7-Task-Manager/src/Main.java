@@ -9,6 +9,7 @@ public class Main {
         taskManager.addTask(new Task(2, "Practice with a project"));
         taskManager.addTask(new Task(3, "Prepare for Spring Boot"));
 
+        // print the init
         System.out.println("Initial Tasks:");
         taskManager.listTasks();
 
