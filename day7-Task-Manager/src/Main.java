@@ -21,6 +21,7 @@ public class Main {
         // delete task 1
         taskManager.deleteTask(1);
 
+        // print the updated tasks
         System.out.println("\nUpdated Tasks:");
         taskManager.listTasks();
 
