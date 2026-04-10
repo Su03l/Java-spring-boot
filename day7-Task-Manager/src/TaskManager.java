@@ -26,6 +26,7 @@ public class TaskManager {
                 .setCompleted(true);
     }
 
+    // delete the task
     public void deleteTask(int id) {
         boolean removed = tasks.removeIf(task -> task.getId() == id);
         if (!removed) {
