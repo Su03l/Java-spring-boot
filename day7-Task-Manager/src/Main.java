@@ -4,6 +4,7 @@ public class Main {
         //init the class to use it
         TaskManager taskManager = new TaskManager();
 
+        // add 3 tasks
         taskManager.addTask(new Task(1, "Learn Java"));
         taskManager.addTask(new Task(2, "Practice with a project"));
         taskManager.addTask(new Task(3, "Prepare for Spring Boot"));
