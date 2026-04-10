@@ -11,6 +11,7 @@ public class Main {
 
         // print the init
         System.out.println("Initial Tasks:");
+        // print the tasks
         taskManager.listTasks();
 
         System.out.println("\nMarking task 2 as done and deleting task 1...");
