@@ -29,6 +29,7 @@ public class TaskManager {
     // delete the task
     public void deleteTask(int id) {
         boolean removed = tasks.removeIf(task -> task.getId() == id);
+        // check if the task was removed
         if (!removed) {
             throw new TaskNotFoundException("Task with ID " + id + " not found.");
         }
