@@ -4,6 +4,7 @@ import java.util.List;
 
 // TaskManager class
 public class TaskManager {
+    // start the list
     private List<Task> tasks = new ArrayList<>();
 
     public void addTask(Task task) {
