@@ -23,6 +23,7 @@ public class Main {
 
         // print the updated tasks
         System.out.println("\nUpdated Tasks:");
+        // print the updated tasks
         taskManager.listTasks();
 
         System.out.println("\nTrying to delete a non-existent task...");
