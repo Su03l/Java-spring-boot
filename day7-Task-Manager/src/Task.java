@@ -41,6 +41,7 @@ public class Task {
         isCompleted = completed;
     }
 
+    // Method to print the task
     public void printTask() {
         System.out.println("[" + (isCompleted ? "X" : " ") + "] Task " + id + ": " + title);
     }
