@@ -17,6 +17,7 @@ public class TaskManager {
         tasks.forEach(Task::printTask);
     }
 
+    // mark the task as done
     public void markTaskAsDone(int id) {
         tasks.stream()
                 .filter(task -> task.getId() == id)
