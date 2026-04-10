@@ -26,6 +26,7 @@ public class Main {
         // print the updated tasks
         taskManager.listTasks();
 
+        // try to delete a non-existent task
         System.out.println("\nTrying to delete a non-existent task...");
         try {
             taskManager.deleteTask(99);
