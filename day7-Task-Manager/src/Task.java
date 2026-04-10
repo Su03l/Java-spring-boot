@@ -11,7 +11,7 @@ public class Task {
         this.isCompleted = false;
     }
 
-    // Getters and Setters
+    // Getters and Setters for ID
     public int getId() {
         return id;
     }
