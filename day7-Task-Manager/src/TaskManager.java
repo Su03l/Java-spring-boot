@@ -19,6 +19,7 @@ public class TaskManager {
 
     // mark the task as done
     public void markTaskAsDone(int id) {
+        // check if the task is found
         tasks.stream()
                 .filter(task -> task.getId() == id)
                 .findFirst()
