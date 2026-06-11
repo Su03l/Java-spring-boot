@@ -81,7 +81,7 @@
     <h2>Add New Staff Here !</h2>
     <div class="container">
         <h2>Staff Details</h2>
-        <form method="post" th:object="${addNewStaff}" th:action="@{/staffdetails}">
+        <form method="post" th:object="${addNewStaff}" th:action="@{/dataSumbitForm}">
             <label for="StaffName">Staff Name</label>
             <input id="StaffName" name="staffName" type="text" placeholder="Staff Name" th:field="*{staffName}" />
 
