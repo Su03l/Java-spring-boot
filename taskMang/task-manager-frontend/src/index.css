@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ───── Theme Foundation ───── */
+/* These must be OUTSIDE @layer base so they don't get overridden by Tailwind utilities */
+html {
+  background-color: #FFFFFF;
+  color: #000000;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+html.dark {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+@layer base {
+  body {
+    @apply font-sans overflow-x-hidden;
+    margin: 0;
+    min-height: 100vh;
+  }
+
+  /* Autofill styling overrides in Dark mode */
+  .dark input:-webkit-autofill,
+  .dark input:-webkit-autofill:hover,
+  .dark input:-webkit-autofill:focus,
+  .dark textarea:-webkit-autofill,
+  .dark textarea:-webkit-autofill:hover,
+  .dark textarea:-webkit-autofill:focus,
+  .dark select:-webkit-autofill,
+  .dark select:-webkit-autofill:hover,
+  .dark select:-webkit-autofill:focus {
+    -webkit-text-fill-color: #FFFFFF;
+    -webkit-box-shadow: 0 0 0px 1000px #000000 inset;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+
+  /* Autofill styling overrides in Light mode */
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  textarea:-webkit-autofill,
+  textarea:-webkit-autofill:hover,
+  textarea:-webkit-autofill:focus,
+  select:-webkit-autofill,
+  select:-webkit-autofill:hover,
+  select:-webkit-autofill:focus {
+    -webkit-text-fill-color: #000000;
+    -webkit-box-shadow: 0 0 0px 1000px #FFFFFF inset;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+}
+
+/* ───── Scrollbar Styling ───── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFFFFF;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00FFFF;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
+}
+
+/* ───── Utility Classes ───── */
+.text-glow-cyan {
+  text-shadow: 0 0 8px rgba(0, 255, 255, 0.5);
+}
+
+/* ───── Reset Vite Defaults ───── */
+#root {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  text-align: left !important;
+  border-inline: none !important;
+  min-height: 100vh !important;
+  display: block !important;
+}

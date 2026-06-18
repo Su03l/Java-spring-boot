@@ -1,8 +1,10 @@
 package com.example.first_session.service;
 
 import com.example.first_session.Model.Task;
+import com.example.first_session.exception.ResourceNotFoundException;
 import com.example.first_session.repository.TaskRepository;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -21,6 +23,7 @@ public class TaskService {
         return taskRepository.findAll();
     }
 
+    @Transactional
     // الإنشاء (Create)
     public Task createTask(Task task) {
         return taskRepository.save(task);
@@ -29,7 +32,7 @@ public class TaskService {
     // update Task
     public Task findTaskById(Long id) {
         return taskRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("لم يتم العثور على المهمة بالرقم: " + id));
+                .orElseThrow(() -> new ResourceNotFoundException("لم يتم العثور على المهمة برقم: " + id));
     }
 
     // التعديل (Update)

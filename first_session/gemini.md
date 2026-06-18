@@ -59,3 +59,13 @@ spring.h2.console.enabled=true
   public Task getTaskById(@PathVariable Long id) {
       return taskService.findTaskById(id);
   }
+
+### 6. التحقق من البيانات (Validation):
+- **@NotBlank:** للتأكد من أن النص ليس فارغاً أو مسافات.
+- **@Size:** لتحديد الحد الأدنى والحد الأعلى لطول النص.
+- **@Valid:** توضع في الـ Controller لتقول لـ Spring "يا ريت تتأكد من صحة هذه البيانات قبل تمريرها للـ Service".
+
+### 7. التوثيق (Documentation):
+- **الأداة:** `springdoc-openapi-starter-webmvc-ui`.
+- **المهمة:** توليد Swagger UI تلقائي لتوثيق الـ API (بديل Scramble في Laravel).
+- **الرابط:** `/swagger-ui.html`.

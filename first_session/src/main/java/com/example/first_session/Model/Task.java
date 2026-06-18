@@ -1,6 +1,8 @@
 package com.example.first_session.Model;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 
 @Entity
 @Table(name = "tasks")
@@ -9,9 +11,10 @@ public class Task {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @NotBlank(message = "the title must not be empty")
+    @Size(min = 3, max = 100, message = "the title must be between 3 and 100 characters")
     private String title;
 
-    @Column(name = "completed", nullable = false) // نجبره على اسم محدد ولا يقبل النل
     private boolean completed = false;
 
     public Task() {
